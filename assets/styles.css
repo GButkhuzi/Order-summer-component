@@ -64,29 +64,58 @@ article>h1 {
 
 
 
-
-/* 
-
-
-
-
-
-.second-text {
-    display: flex;
-    justify-content: space-around;
-    background-color: #F7F9FF;
-    align-items: center;
+.second-tex {
+    margin: 0px 48px;
     padding: 25px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+}
+
+.second-tex>div {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.second-tex>div>h3 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+
+.second-tex>div>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.second-tex>p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+}
+
+.button {
+    margin: 32px 48px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
     border-radius: 11px;
 
 }
-
-.second-text>div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 25px 0px 6px 20px;
-    background-color: bisque;
-
-
-} */
