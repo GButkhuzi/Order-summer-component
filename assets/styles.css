@@ -104,6 +104,13 @@ article>h1 {
     color: #382AE1;
 }
 
+.second-tex>p:hover {
+    cursor: pointer;
+    color: #766CF1;
+    transition: 0.2s ease-in-out;
+
+}
+
 .button {
     margin: 32px 48px;
     padding: 15px 0px;
@@ -117,5 +124,25 @@ article>h1 {
     line-height: 20px;
     color: white;
     border-radius: 11px;
+}
 
+.button:hover {
+    cursor: pointer;
+    background-color: #766CF1;
+    transition: 0.2s ease-in-out;
+}
+
+footer {
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+}
+
+footer:hover {
+    cursor: pointer;
+    color: #1F2E55;
+    transition: 0.2s ease-in-out;
 }
