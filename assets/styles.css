@@ -46,7 +46,7 @@ section {
     gap: 17px;
 }
 
-article>h1 {
+.main-text>h1 {
     font-weight: 900;
     font-size: 28px;
     line-height: 37px;
@@ -145,4 +145,75 @@ footer:hover {
     cursor: pointer;
     color: #1F2E55;
     transition: 0.2s ease-in-out;
+}
+
+
+@media only screen and (max-width:375px) {
+    .background {
+        background-image: url('./images/pattern-background-mobile.svg');
+    }
+
+    section {
+        max-width: 327px;
+    }
+
+    .test>img {
+        width: 327px;
+        height: 160px;
+    }
+
+    .main-text {
+        margin: 32px 32px 24px 32px;
+        gap: 16px;
+    }
+
+    .main-text>h1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+
+    .main-text>p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .second-tex {
+        margin: 0px 24px;
+        padding: 17px 16px;
+
+    }
+
+    .second-tex>div {
+        margin-right: 40px;
+        gap: 3px;
+    }
+
+    .second-tex>div>h3 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+
+    .second-tex>div>p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .second-tex>p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .button {
+        margin: 24px 24px;
+
+    }
+
+    footer {
+        margin-bottom: 32px;
+
+    }
+
 }
